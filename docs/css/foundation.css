@@ -8105,15 +8105,21 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .tabs-title>a:hover {
   /* background: #fefefe; */
   background: transparent;
-  color: #1468a0;
+  color: maroon;
+}
+.tabs-title>a:visited {
+  /* background: #fefefe; */
+  background: transparent;
+  color: deepblue;
 }
 
 .tabs-title>a:focus,
 .tabs-title>a[aria-selected="true"] {
   background: transparent;
-  /* color: maroon; */
+  color: blue;
   list-style-type: none;
-  text-decoration: underline gray;
+  text-decoration: none;
+  /* text-decoration: underline gray; */
 }
 
 .tabs-content {

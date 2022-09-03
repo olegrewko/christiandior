@@ -6,10 +6,10 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'DS Stamper';
-	src: url('../fonts/DSStamper.ttf') format('ttf');
+	font-family: 'KyrillaSansSerif Black';
+	src: url('../fonts/KyrillaSansSerif Black.ttf') format('ttf');
 	font-display: swap;
-	font-weight: bold;
+	/* font-weight: black; */
 	font-style: normal;
 }
 @font-face {
@@ -160,10 +160,10 @@ p, li {
     line-height: 1.1;
 }
 .grey11rem {
-    font-family: 'Montserrat';
+    font-family: 'Gowun Batang';
     /* font-family: 'Gowun Batang', serif; */
     /* color: #191D27; */
-    font-weight: 600;
+    font-weight: black;
     font-size: 3.9rem;
     line-height: 1.7;
 }
