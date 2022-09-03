@@ -433,6 +433,9 @@ li.menu-text {
 
 }
 
+h1::first-letter{
+    color: maroon;
+}
 
 h1,
 h2,
