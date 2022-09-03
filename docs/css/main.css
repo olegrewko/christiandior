@@ -36,8 +36,8 @@ div {
 
 body {
 
-
-    font-family: 'Oswald Bold';
+    overflow: hidden;
+    /* font-family: 'Oswald Bold'; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 0.7rem;
@@ -141,15 +141,13 @@ p, li {
    
     color: #191D27; 
 } */
-.grey9rem {
-    /* font-family: 'DS Stamper'; */
-    /* font-family: 'Oswald Bold'; */
-    /* color: black; */
+/* .grey9rem {
+  
     color: #191D27;
     font-weight: bold;
     font-size: 5.5rem;
     line-height: 1.1;
-}
+} */
 
 .grey10rem {
     font-family: 'Montserrat';
