@@ -1,3 +1,26 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DS Stamper';
+	src: url('../fonts/DSStamper.ttf') format('ttf');
+	font-display: swap;
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald Bold';
+    src: url('../fonts/OswaldBold.ttf') format('ttf');
+    /* src: url('OswaldBold.eot?#iefix') format('embedded-opentype'),
+    url('Oswald-Bold.woff') format('woff'),
+    url('../fonts/OswaldBold.ttf') format('ttf'); */
+    font-weight: bold;
+    font-style: normal;
+    }
 html {
     font-size: 100%;
 
@@ -14,6 +37,7 @@ div {
 body {
 
 
+    font-family: 'Oswald Bold';
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 0.7rem;
@@ -112,19 +136,21 @@ p, li {
 .pr {
     padding-right: 1 rem;
 }
-.grey {
-    font-family: 'Montserrat';
-    /* font-family: 'Gowun Batang', serif; */
+/* .grey {
+   
+   
     color: #191D27; 
-}
+} */
 .grey9rem {
-    font-family: 'Montserrat';
-    /* font-family: 'Gowun Batang', serif; */
+    /* font-family: 'DS Stamper'; */
+    /* font-family: 'Oswald Bold'; */
+    /* color: black; */
     color: #191D27;
-    font-weight: 500;
-    font-size: 3.5rem;
+    font-weight: bold;
+    font-size: 5.5rem;
     line-height: 1.1;
 }
+
 .grey10rem {
     font-family: 'Montserrat';
     /* font-family: 'Gowun Batang', serif; */
@@ -136,17 +162,17 @@ p, li {
 .grey11rem {
     font-family: 'Montserrat';
     /* font-family: 'Gowun Batang', serif; */
-    color: #191D27;
-    font-weight: 700;
-    font-size: 7.5rem;
-    line-height: 1.1;
+    /* color: #191D27; */
+    font-weight: 600;
+    font-size: 3.9rem;
+    line-height: 1.7;
 }
 .grey9rem {
     font-family: 'Montserrat';
     /* font-family: 'Gowun Batang', serif; */
     color: #191D27;
-    font-weight: 600;
-    font-size: 4.5rem;
+    font-weight: 500;
+    font-size: 3.1rem;
     line-height: 1.1;
 }
 .grey6rem {
@@ -343,6 +369,9 @@ a:hover {
 }
 .dummy02 {
     height: 2rem;
+}
+.dummy01 {
+    height: 1rem;
 }
 
 ul li {
